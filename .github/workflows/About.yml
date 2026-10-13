@@ -6,24 +6,24 @@ on:
   pull_request:
     branches: ["main"]
 
+jobs:
+  job1:
+    build:
+      runs_on: ubunto_latest
 
-job1:
-  build:
-    runs_on: ubunto_latest
+      steps:
+        - uses: actions/checkout@v4
 
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Run a one-line script
-        run: echo Hello, Farah1
+        - name: Run a one-line script
+          run: echo Hello, Farah1
 
 
-job2:
-  build:
-    runs_on: ubunto_latest
+  job2:
+    build:
+      runs_on: ubunto_latest
 
-    steps:
-      - uses: actions/checkout@v4
+      steps:
+        - uses: actions/checkout@v4
 
-      - name: Rub a one-line script
-        run: echo How was your dat today?!
+        - name: Rub a one-line script
+          run: echo How was your dat today?!
