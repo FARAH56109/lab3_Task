@@ -8,7 +8,6 @@ on:
 
 jobs:
   job1:
-    build:
       runs_on: ubunto_latest
 
       steps:
@@ -19,7 +18,6 @@ jobs:
 
 
   job2:
-    build:
       runs_on: ubunto_latest
 
       steps:
