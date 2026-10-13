@@ -1,0 +1,29 @@
+name: Farah
+
+on: 
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+
+job1:
+  build:
+    runs_on: ubunto_latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run a one-line script
+        run: echo Hello, Farah1
+
+
+job2:
+  build:
+    runs_on: ubunto_latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rub a one-line script
+        run: echo How was your dat today?!
