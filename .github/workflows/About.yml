@@ -8,7 +8,7 @@ on:
 
 jobs:
   job1:
-      runs-on: ubunto_latest
+      runs-on: ubuntu-latest
 
       steps:
         - uses: actions/checkout@v4
@@ -18,7 +18,7 @@ jobs:
 
 
   job2:
-      runs-on: ubunto_latest
+      runs-on: ubuntu-latest
 
       steps:
         - uses: actions/checkout@v4
