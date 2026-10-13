@@ -8,7 +8,7 @@ on:
 
 jobs:
   job1:
-      runs_on: ubunto_latest
+      runs-on: ubunto_latest
 
       steps:
         - uses: actions/checkout@v4
@@ -18,7 +18,7 @@ jobs:
 
 
   job2:
-      runs_on: ubunto_latest
+      runs-on: ubunto_latest
 
       steps:
         - uses: actions/checkout@v4
